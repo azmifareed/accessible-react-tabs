@@ -69,6 +69,70 @@ exports[`renders app correctly 1`] = `
           </p>
         </div>
       </div>
+      <hr />
+      <div
+        class="sc-hKFxyN bPCfgy"
+      >
+        <div
+          aria-label="Another Tabs"
+          class="sc-bdnxRM ewiLTn"
+          role="tablist"
+        >
+          <button
+            aria-controls="sodales-tab"
+            aria-selected="true"
+            class="sc-gtsrHT hLdcqK"
+            id="sodales"
+            role="tab"
+          >
+            Sodales
+          </button>
+          <button
+            aria-controls="tincidunt-tab"
+            aria-selected="false"
+            class="sc-gtsrHT crbYRc"
+            id="tincidunt"
+            role="tab"
+            tabindex="-1"
+          >
+            Tincidunt
+          </button>
+        </div>
+        <div
+          aria-labelledby="sodales"
+          class="sc-dlnjwi cIarac"
+          id="sodales-tab"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <h3>
+            Donec sodales sagittis
+          </h3>
+          <p>
+            Maecenas vestibulum mollis diam.. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Suspendisse potenti. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+          </p>
+          <p>
+            Ut tincidunt tincidunt erat. Fusce convallis metus id felis luctus adipiscing. Vivamus quis mi. Nullam vel sem. Morbi ac felis.
+          </p>
+        </div>
+        <div
+          aria-labelledby="tincidunt"
+          class="sc-dlnjwi dBvEUx"
+          id="tincidunt-tab"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <h3>
+            Donec vitae
+          </h3>
+          <p>
+            Ut tincidunt tincidunt erat. Fusce convallis metus id felis luctus adipiscing. Vivamus quis mi. Nullam vel sem. Morbi ac felis.
+          </p>
+          <p>
+            Maecenas vestibulum mollis diam.. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Suspendisse potenti. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </body>

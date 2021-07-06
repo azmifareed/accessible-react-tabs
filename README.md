@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# WAI ARIA Compaliant Tabs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project illustrates a usage of a React tab group component fully compliant with the WAI ARIA specification with details highlighted here https://www.w3.org/TR/wai-aria-practices-1.1/#tabpanel. 
 
-## Available Scripts
+This is an [Automatically Activated](https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-1/tabs.html) tabs component. 
+
+Active tabs retain their state in a similar manner to native HTML elements including
+back/forward navigation and refresh. 
+
+It's should be possible to directly link to any given tab on a page using a query parameter name attached to each tab group with a prop.
+
+The tabs component fully operational in Chrome, Firefox, Safari and Edge.
+
+## How to run this project locally?
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Installs all dependencies required.
+
 ### `yarn start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `yarn build`
+### `yarn test:coverage`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Launches the test runner and displayes code coverage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React
+- TypeScript
+- Styled Components
+- React Testing Library
