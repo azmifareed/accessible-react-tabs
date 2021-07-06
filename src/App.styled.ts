@@ -31,7 +31,11 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.5rem;
     font-weight: ${p => p.theme.typography.fontWeight.regular};
   }
-
+  hr {
+    margin: 3rem 0;
+    border: none;
+    border-bottom: 1px solid ${p => p.theme.colors.neutral};
+  }
 `;
 
 export const AppContainer = styled.div`

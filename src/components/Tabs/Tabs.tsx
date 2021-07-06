@@ -6,12 +6,13 @@ import { useQueryParams } from '../../hooks'
 export interface ITabsProps {
   children: ReactElement[];
   ariaLabel: string;
+  paramName: string;
 }
 
-export function Tabs({ children, ariaLabel }: ITabsProps) {
+export function Tabs({ children, ariaLabel, paramName }: ITabsProps) {
   const [selectedTabIndex, setSelectedTabIndex] = useState<number>();
   const tabRef = useRef<HTMLButtonElement[]>([]);
-  const [tabParam, setTabParam] = useQueryParams('tab');
+  const [tabParam, setTabParam] = useQueryParams(paramName);
 
   /**
    * Handle the click event on a tab item
