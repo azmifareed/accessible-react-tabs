@@ -80,27 +80,27 @@ exports[`renders app correctly 1`] = `
         >
           <button
             aria-controls="sodales-tab"
-            aria-selected="true"
-            class="sc-gtsrHT hLdcqK"
+            aria-selected="false"
+            class="sc-gtsrHT crbYRc"
             id="sodales"
             role="tab"
+            tabindex="-1"
           >
             Sodales
           </button>
           <button
             aria-controls="tincidunt-tab"
-            aria-selected="false"
-            class="sc-gtsrHT crbYRc"
+            aria-selected="true"
+            class="sc-gtsrHT hLdcqK"
             id="tincidunt"
             role="tab"
-            tabindex="-1"
           >
             Tincidunt
           </button>
         </div>
         <div
           aria-labelledby="sodales"
-          class="sc-dlnjwi cIarac"
+          class="sc-dlnjwi dBvEUx"
           id="sodales-tab"
           role="tabpanel"
           tabindex="0"
@@ -117,7 +117,7 @@ exports[`renders app correctly 1`] = `
         </div>
         <div
           aria-labelledby="tincidunt"
-          class="sc-dlnjwi dBvEUx"
+          class="sc-dlnjwi cIarac"
           id="tincidunt-tab"
           role="tabpanel"
           tabindex="0"

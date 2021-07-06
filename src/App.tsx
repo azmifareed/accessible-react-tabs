@@ -13,7 +13,7 @@ function App() {
           <Tab
             id="tincidunt"
             label="Tincidunt"
-            isSelected={false}
+            isSelected={true}
           >
             <h3>Donec vitae</h3>
             <p>Ut tincidunt tincidunt erat. Fusce convallis metus id felis luctus adipiscing. 
@@ -54,7 +54,7 @@ function App() {
           <Tab
             id="tincidunt"
             label="Tincidunt"
-            isSelected={false}
+            isSelected={true}
           >
             <h3>Donec vitae</h3>
             <p>Ut tincidunt tincidunt erat. Fusce convallis metus id felis luctus adipiscing. 
