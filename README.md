@@ -32,6 +32,8 @@ Launches the test runner in the interactive watch mode.
 
 Launches the test runner and displays code coverage.
 
+I haven't written too many unit tests and have written snapshot test for most components for better coverage.
+
 
 ## Technologies
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
