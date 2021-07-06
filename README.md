@@ -9,7 +9,7 @@ back/forward navigation and refresh.
 
 It's possible to directly link to any given tab on a page using a query parameter name attached to each tab group with a prop.
 
-The tabs component fully operational in Chrome, Firefox, Safari and Edge.
+The tabs component is fully operational in Chrome, Firefox, Safari and Edge.
 
 ## How to run this project locally?
 
