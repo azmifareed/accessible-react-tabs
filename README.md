@@ -30,7 +30,7 @@ Launches the test runner in the interactive watch mode.
 
 ### `yarn test:coverage`
 
-Launches the test runner and displayes code coverage.
+Launches the test runner and displays code coverage.
 
 
 ## Technologies
