@@ -7,7 +7,7 @@ This is an [Automatically Activated](https://www.w3.org/TR/wai-aria-practices-1.
 Active tabs retain their state in a similar manner to native HTML elements including
 back/forward navigation and refresh. 
 
-It's should be possible to directly link to any given tab on a page using a query parameter name attached to each tab group with a prop.
+It's possible to directly link to any given tab on a page using a query parameter name attached to each tab group with a prop.
 
 The tabs component fully operational in Chrome, Firefox, Safari and Edge.
 
