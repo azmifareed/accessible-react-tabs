@@ -1,6 +1,11 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    font-size: ${p => p.theme.typography.fontSize};
+    font-family: ${p => p.theme.typography.fontFamily};
+    color: ${p => p.theme.colors.textDefault};
+  }
   * {
     box-sizing: border-box;
     padding: 0;
@@ -10,12 +15,13 @@ export const GlobalStyle = createGlobalStyle`
     font-family: ${p => p.theme.typography.fontFamily};
     font-size: ${p => p.theme.typography.fontSize};
     font-weight:  ${p => p.theme.typography.fontWeight.regular};
+    color: ${p => p.theme.colors.textDefault};
   }
   p {
     line-height: 1.5;
     margin-bottom: 1rem;
     font-family: ${p => p.theme.typography.fontFamily};
-    font-size: ${p => p.theme.typography.fontSize};
+    font-size: 1rem;
     font-weight: ${p => p.theme.typography.fontWeight.regular};
   }
   h3 {
