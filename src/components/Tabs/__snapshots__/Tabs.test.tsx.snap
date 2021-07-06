@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles tab nav item arrow keypress correctly when no item is selected 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab1"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab2"
+          role="tab"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi dBvEUx"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi cIarac"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item arrow keypress correctly when no item is selected 2`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab1"
+          role="tab"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab2"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi cIarac"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi dBvEUx"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item click correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab1"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab2"
+          role="tab"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi dBvEUx"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi cIarac"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item click correctly 2`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab1"
+          role="tab"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab2"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi cIarac"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi dBvEUx"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item left arrow keypress correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab1"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab2"
+          role="tab"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi dBvEUx"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi cIarac"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item left arrow keypress correctly 2`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab1"
+          role="tab"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab2"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi cIarac"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi dBvEUx"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item right arrow keypress correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab1"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab2"
+          role="tab"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi dBvEUx"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi cIarac"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`handles tab nav item right arrow keypress correctly 2`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab1"
+          role="tab"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab2"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi cIarac"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi dBvEUx"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders Tabs correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKFxyN bPCfgy"
+    >
+      <div
+        aria-label="test label"
+        class="sc-bdnxRM ewiLTn"
+        role="tablist"
+      >
+        <button
+          aria-controls="tab1-tab"
+          aria-selected="true"
+          class="sc-gtsrHT hLdcqK"
+          id="tab1"
+          role="tab"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="tab2-tab"
+          aria-selected="false"
+          class="sc-gtsrHT crbYRc"
+          id="tab2"
+          role="tab"
+          tabindex="-1"
+        >
+          Tab 2
+        </button>
+      </div>
+      <div
+        aria-labelledby="tab1"
+        class="sc-dlnjwi cIarac"
+        id="tab1-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 1
+      </div>
+      <div
+        aria-labelledby="tab2"
+        class="sc-dlnjwi dBvEUx"
+        id="tab2-tab"
+        role="tabpanel"
+        tabindex="0"
+      >
+        tab panel 2
+      </div>
+    </div>
+  </div>
+</body>
+`;

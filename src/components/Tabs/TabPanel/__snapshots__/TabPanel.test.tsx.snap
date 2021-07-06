@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TabPanel correctly 1`] = `
+<body>
+  <div>
+    <div
+      aria-labelledby="test"
+      class="sc-bdnxRM klgMsN"
+      id="test-tab"
+      role="tabpanel"
+      tabindex="0"
+    >
+      test child
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders TabPanel correctly when not selected 1`] = `
+<body>
+  <div>
+    <div
+      aria-labelledby="test"
+      class="sc-bdnxRM jYqWsk"
+      id="test-tab"
+      role="tabpanel"
+      tabindex="0"
+    >
+      test child
+    </div>
+  </div>
+</body>
+`;

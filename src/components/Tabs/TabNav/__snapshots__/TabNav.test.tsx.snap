@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TabNav correctly 1`] = `
+<body>
+  <div>
+    <div
+      aria-label="test label"
+      class="sc-bdnxRM ewiLTn"
+      role="tablist"
+    >
+      test child
+    </div>
+  </div>
+</body>
+`;
